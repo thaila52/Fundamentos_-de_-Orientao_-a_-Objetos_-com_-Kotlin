@@ -1,4 +1,4 @@
-class `Conta.kt`(
+class(
     val agencia: String,
     val numero: String,
     val saldo: BigDecimal
