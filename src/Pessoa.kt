@@ -1,17 +1,10 @@
 
-class Pessoa {
-    var nome: String = "Thaila"
-    var cpf: String = "330.541.868-06"
-    private set
+abstract class Pessoa(
+    val nome: String,
+    val cpf: String
 
-    constructor()
-    fun pessoainfo() = "$nome e $cpf"
-}
-fun main() {
+)
 
-    val thaila = Pessoa()
-    println(thaila.pessoainfo())
-}
 
 
 
